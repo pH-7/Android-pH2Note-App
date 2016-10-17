@@ -1,6 +1,6 @@
 # pH2NoteTaking
 
-Simple Notepad Android app.
+Simple Notepad Android app (using SQLIte for saving the notes).
 
 
 ## Author

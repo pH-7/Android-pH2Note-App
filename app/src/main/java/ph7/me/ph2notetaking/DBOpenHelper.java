@@ -12,11 +12,20 @@ public class DBOpenHelper extends SQLiteOpenHelper {
     private static final String DB_NAME = "ph2note.db";
     private static final int DB_VER = 1;
 
+    // Constants for SQL Order keywords
+    public static final String ASC = "ASC";
+    public static final String DESC = "DESC";
+
     // Constants that identifies table / columns
     public static final String TABLE_NOTE = "note";
     public static final String NOTE_ID = "_id";
     public static final String NOTE_TEXT = "noteText";
     public static final String NOTE_CREATED = "noteCreated";
+    public static final String[] ALL_COLUMNS = {
+            NOTE_ID,
+            NOTE_TEXT,
+            NOTE_CREATED
+    };
 
     // SQL to create table
     private static final String TABLE_CREATE =
