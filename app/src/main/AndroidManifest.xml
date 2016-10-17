@@ -15,6 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:authorities="ph7.me.ph2notetaking.noteprovider"
+            android:name=".NoteProvider"
+            android:exported="false" />
     </application>
+
+
 
 </manifest>
